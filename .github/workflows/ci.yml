@@ -17,6 +17,7 @@ jobs:
           pwd
           cd ./second-action-react-demo
           pwd
+          node -v
           npm ci
 
       - name: Run Tests
@@ -43,6 +44,7 @@ jobs:
           pwd
           cd ./second-action-react-demo
           pwd
+          node -v
           npm ci
 
       - name: Build Project          
