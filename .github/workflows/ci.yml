@@ -26,7 +26,7 @@ jobs:
          pwd
          npm test 
 
-   deploy: 
+  deploy: 
     runs-on:  ubuntu-latest
     steps: 
       - name: Get Code
