@@ -20,6 +20,10 @@ jobs:
           npm ci
 
       - name: Run Tests
-        run: npm test 
+        run: |
+         pwd
+         cd ./second-action-react-demo
+         pwd
+         npm test 
           
 
